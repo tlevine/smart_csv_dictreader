@@ -11,7 +11,7 @@ setup(name='smart_csv_dictreader',
     classifiers = [
         'Intended Audience :: Developers',
     ],
-    py_modules = ['smart_csv_dictreader'],
+    packages = ['smart_csv_dictreader'],
     install_requires = [],
     tests_require = ['nose'],
     version = s.__version__,
