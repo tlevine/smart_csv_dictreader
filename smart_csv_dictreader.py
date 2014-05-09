@@ -2,9 +2,8 @@ __version__ = '0.0.1'
 
 def DictReader(fp, *args, **kwargs):
     '''
-    Return a tuple of
-        list of field names
-        csv.DictReader
+    Produce a csv.DictReader without specifying the fieldnames.
+    Arguments get passed to csv.DictReader.
     '''
     import csv
 
